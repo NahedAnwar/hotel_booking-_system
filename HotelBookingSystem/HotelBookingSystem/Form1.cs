@@ -93,8 +93,8 @@ namespace HotelBookingSystem
             if (loginas == "Admin")
             {
                 if (name=="rosa"&&password=="admin1234") {
-                    Form4 form4 = new Form4();
-                    form4.ShowDialog();
+                  //  Form4 form4 = new Form4();
+                   // form4.ShowDialog();
                 } else
                 {
                     MessageBox.Show("username or password is not true ", "Valiation Error ", MessageBoxButtons.OK, MessageBoxIcon.Warning);
@@ -126,6 +126,11 @@ namespace HotelBookingSystem
             {
                 this.SetDesktopLocation(MousePosition.X-movx, MousePosition.Y - movy);
             }
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -61,8 +61,9 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Font = new System.Drawing.Font("Segoe Print", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1046, 43);
+            this.panel1.Size = new System.Drawing.Size(897, 35);
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
@@ -75,9 +76,10 @@
             this.bunifuImageButton3.BackColor = System.Drawing.Color.Transparent;
             this.bunifuImageButton3.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton3.Image")));
             this.bunifuImageButton3.ImageActive = null;
-            this.bunifuImageButton3.Location = new System.Drawing.Point(893, 0);
+            this.bunifuImageButton3.Location = new System.Drawing.Point(765, 0);
+            this.bunifuImageButton3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.bunifuImageButton3.Name = "bunifuImageButton3";
-            this.bunifuImageButton3.Size = new System.Drawing.Size(46, 41);
+            this.bunifuImageButton3.Size = new System.Drawing.Size(39, 33);
             this.bunifuImageButton3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.bunifuImageButton3.TabIndex = 2;
             this.bunifuImageButton3.TabStop = false;
@@ -90,9 +92,10 @@
             this.bunifuImageButton2.BackColor = System.Drawing.Color.Transparent;
             this.bunifuImageButton2.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton2.Image")));
             this.bunifuImageButton2.ImageActive = null;
-            this.bunifuImageButton2.Location = new System.Drawing.Point(945, 0);
+            this.bunifuImageButton2.Location = new System.Drawing.Point(810, 0);
+            this.bunifuImageButton2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.bunifuImageButton2.Name = "bunifuImageButton2";
-            this.bunifuImageButton2.Size = new System.Drawing.Size(46, 41);
+            this.bunifuImageButton2.Size = new System.Drawing.Size(39, 33);
             this.bunifuImageButton2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.bunifuImageButton2.TabIndex = 2;
             this.bunifuImageButton2.TabStop = false;
@@ -105,9 +108,10 @@
             this.bunifuImageButton1.BackColor = System.Drawing.Color.Transparent;
             this.bunifuImageButton1.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton1.Image")));
             this.bunifuImageButton1.ImageActive = null;
-            this.bunifuImageButton1.Location = new System.Drawing.Point(997, 3);
+            this.bunifuImageButton1.Location = new System.Drawing.Point(855, 2);
+            this.bunifuImageButton1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.bunifuImageButton1.Name = "bunifuImageButton1";
-            this.bunifuImageButton1.Size = new System.Drawing.Size(46, 36);
+            this.bunifuImageButton1.Size = new System.Drawing.Size(39, 29);
             this.bunifuImageButton1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.bunifuImageButton1.TabIndex = 1;
             this.bunifuImageButton1.TabStop = false;
@@ -120,9 +124,9 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Script MT Bold", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label1.Location = new System.Drawing.Point(12, 0);
+            this.label1.Location = new System.Drawing.Point(10, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(78, 34);
+            this.label1.Size = new System.Drawing.Size(63, 27);
             this.label1.TabIndex = 0;
             this.label1.Text = "Login";
             // 
@@ -131,9 +135,10 @@
             this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(448, 138);
+            this.pictureBox1.Location = new System.Drawing.Point(384, 112);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(214, 134);
+            this.pictureBox1.Size = new System.Drawing.Size(183, 109);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
@@ -144,9 +149,9 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.ForeColor = System.Drawing.Color.DimGray;
-            this.label2.Location = new System.Drawing.Point(458, 308);
+            this.label2.Location = new System.Drawing.Point(393, 250);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(204, 17);
+            this.label2.Size = new System.Drawing.Size(161, 13);
             this.label2.TabIndex = 2;
             this.label2.Text = "Enter your username ,password";
             // 
@@ -156,9 +161,9 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label3.Location = new System.Drawing.Point(346, 388);
+            this.label3.Location = new System.Drawing.Point(297, 315);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(87, 23);
+            this.label3.Size = new System.Drawing.Size(71, 19);
             this.label3.TabIndex = 3;
             this.label3.Text = "Username";
             // 
@@ -168,9 +173,9 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label4.Location = new System.Drawing.Point(346, 442);
+            this.label4.Location = new System.Drawing.Point(297, 359);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(80, 23);
+            this.label4.Size = new System.Drawing.Size(67, 19);
             this.label4.TabIndex = 4;
             this.label4.Text = "Password";
             // 
@@ -179,9 +184,9 @@
             this.linkLabel1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.linkLabel1.AutoSize = true;
             this.linkLabel1.LinkColor = System.Drawing.Color.DarkGreen;
-            this.linkLabel1.Location = new System.Drawing.Point(504, 531);
+            this.linkLabel1.Location = new System.Drawing.Point(432, 431);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(107, 17);
+            this.linkLabel1.Size = new System.Drawing.Size(85, 13);
             this.linkLabel1.TabIndex = 7;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "Create  Account";
@@ -192,9 +197,10 @@
             this.button1.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.button1.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button1.Location = new System.Drawing.Point(768, 531);
+            this.button1.Location = new System.Drawing.Point(658, 431);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(131, 35);
+            this.button1.Size = new System.Drawing.Size(112, 28);
             this.button1.TabIndex = 8;
             this.button1.Text = "Login";
             this.button1.UseVisualStyleBackColor = true;
@@ -206,9 +212,9 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label5.Location = new System.Drawing.Point(350, 492);
+            this.label5.Location = new System.Drawing.Point(300, 400);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(73, 23);
+            this.label5.Size = new System.Drawing.Size(60, 19);
             this.label5.TabIndex = 9;
             this.label5.Text = "Login as";
             // 
@@ -219,32 +225,36 @@
             this.comboLogin.Items.AddRange(new object[] {
             "Admin",
             "Client"});
-            this.comboLogin.Location = new System.Drawing.Point(452, 492);
+            this.comboLogin.Location = new System.Drawing.Point(387, 400);
+            this.comboLogin.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboLogin.Name = "comboLogin";
-            this.comboLogin.Size = new System.Drawing.Size(184, 24);
+            this.comboLogin.Size = new System.Drawing.Size(158, 21);
             this.comboLogin.TabIndex = 10;
             // 
             // textName
             // 
-            this.textName.Location = new System.Drawing.Point(452, 388);
+            this.textName.Location = new System.Drawing.Point(387, 315);
+            this.textName.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textName.Name = "textName";
-            this.textName.Size = new System.Drawing.Size(184, 24);
+            this.textName.Size = new System.Drawing.Size(158, 20);
             this.textName.TabIndex = 11;
             // 
             // textPassword
             // 
-            this.textPassword.Location = new System.Drawing.Point(452, 444);
+            this.textPassword.Location = new System.Drawing.Point(387, 361);
+            this.textPassword.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textPassword.Name = "textPassword";
             this.textPassword.PasswordChar = '.';
-            this.textPassword.Size = new System.Drawing.Size(184, 24);
+            this.textPassword.Size = new System.Drawing.Size(158, 20);
             this.textPassword.TabIndex = 12;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
+            this.AcceptButton = this.button1;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.ClientSize = new System.Drawing.Size(1046, 611);
+            this.ClientSize = new System.Drawing.Size(897, 496);
             this.Controls.Add(this.textPassword);
             this.Controls.Add(this.textName);
             this.Controls.Add(this.comboLogin);
@@ -258,9 +268,11 @@
             this.Controls.Add(this.panel1);
             this.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton3)).EndInit();
